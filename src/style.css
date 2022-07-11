@@ -1,1 +1,17 @@
-/* styles go here */
+.form_item {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form_last-item {
+  margin-bottom: 0;
+}
+
+.fieldset_block {
+  margin-bottom: 20px;
+}
+
+.radio_box {
+  display: inline-block;
+  margin-bottom: 10px;
+}
