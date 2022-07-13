@@ -26,6 +26,7 @@
             type="text"
             name="user_surname"
             autocomplete="off"
+            required
           >
         </label>
 
@@ -35,6 +36,7 @@
             type="text"
             name="user_name"
             autocomplete="off"
+            required
           >
         </label>
 
@@ -46,12 +48,14 @@
             name="user_age"
             min="1"
             max="100"
+            required
           >
         </label>
 
         <label for="user_date" class="form_item">
           Full date of birth:
           <input type="date" name="user_date">
+          required
         </label>
 
         <label
@@ -59,7 +63,11 @@
           class="form_item form_last-item"
         >
           I accept the term of the agreement
-          <input type="checkbox" name="user_agreement">
+          <input
+            type="checkbox"
+            name="user_agreement"
+            required
+          >
         </label>
       </fieldset>
 
@@ -73,6 +81,7 @@
             name="user_email"
             placeholder="email@example.com"
             autocomplete="off"
+            required
           >
         </label>
 
@@ -87,6 +96,7 @@
             minlength="5"
             maxlength="20"
             autocomplete="off"
+            required
           >
         </label>
       </fieldset>
